@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='divy-us-bikeshare-data',
     version='0.4.0',
-    description='divy-us-bikeshare-data',
+    description='Divy US Bikeshare Data',
     author='Sijo Jose',
     author_email='',
     url="",
