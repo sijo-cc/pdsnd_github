@@ -1,17 +1,20 @@
+#ignore all the csv files (bikeshare project included):
+*.csv
+
+#ignore all config files :
 .github/**
 .*
 .env
-pgdata/
-api/data/schema.graphql
-api/data/copy
 
-bikeshare/main/sources/*.*
-# Byte-compiled / optimized / DLL files
+# Ignore all Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
+# Ignore all Distribution / packaging for the virtual env
+# Although this is not part of the bikeshare project, I kept this to keep my work env clean
+# since i use my work machine for projects and i use pipenv to separate all the projects so as to not create dependency issues
+
 .Python
 build/
 develop-eggs/
@@ -33,25 +36,15 @@ share/python-wheels/
 MANIFEST
 
 
-# Installer logs
+# Ignore all Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-
-
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
+# Ignore all pyenv configs
 .python-version
 
 
-# Environments
+# Ignore all Environmentsfiles/configs
 .env
 .venv
 env/
