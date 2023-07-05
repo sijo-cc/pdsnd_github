@@ -14,7 +14,7 @@ class DivyBikeShareCalc():
     #              'new york city': 'new_york_city.csv',
     #              'washington': 'washington.csv'}
 
-    DIRECTORY = 'bikeshare/main/sources'
+    DIRECTORY = 'main/sources'
     #changed source directory
 
     # Added timing decorator for stopwatch functionality
